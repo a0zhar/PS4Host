@@ -1,0 +1,71 @@
+.goldHenButton {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 4px 6px 3px black;
+    background-color: gray;
+    color: #CEC52A
+  }
+
+  .UiButton {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .GoldHENbtn {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px black;
+    color: #CEC52A;
+  }
+
+  .buttonClass {
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 4px 4px 4px black;
+    color: white;
+  }
+
+  .cH1 {
+    font-size: 25px;
+    text-align: center;
+    text-shadow: 4px 4px 4px black;
+    color: yellow;
+    margin-bottom: 20px;
+  }
+
+  .button,
+  .button2 {
+    font-size: 120%;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px black;
+    text-decoration: none;
+  }
+
+  .button {
+    color: green;
+  }
+
+  .button2 {
+    color: red;
+  }
+
+  .counters {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .counter {
+    display: flex;
+    align-items: center;
+  }
+
+  .spacer {
+    flex-grow: 1;
+  }
