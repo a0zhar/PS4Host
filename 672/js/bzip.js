@@ -1,7 +1,8 @@
 var bzip2 = {};
 
 bzip2.array = function (bytes) {
-  var bit = 0, byte = 0;
+  var bit = 0;
+  var byte = 0;
   var BITMASK = [0, 0x01, 0x03, 0x07, 0x0f, 0x1f, 0x3f, 0x7f, 0xff];
   return function (n) {
     var result = 0;
@@ -26,8 +27,8 @@ bzip2.array = function (bytes) {
 
 bzip2.simple = function (bits) {
   var size = bzip2.header(bits);
-  var all = [],
-    chunk = [];
+  var all = [];
+  var chunk = [];
   do {
     all = all.concat(chunk);
     chunk = bzip2.decompress(bits, size);
